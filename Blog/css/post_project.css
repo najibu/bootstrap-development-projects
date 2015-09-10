@@ -1,0 +1,16 @@
+#posts_wrapper {
+  padding: 3em 0;
+  text-align: center;
+}
+#posts_wrapper .post .date {
+  font-size: .9em;
+  margin: 0;
+}
+#posts_wrapper .post h2 {
+  margin: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+#posts_wrapper .post hr {
+  margin: 3em auto;
+}
