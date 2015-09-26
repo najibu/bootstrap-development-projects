@@ -4,35 +4,179 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Starter Template for Bootstrap</title>    
+    <title>Digital Agency</title>    
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
   </head>
 
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <nav class="navbar navbar-custom navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Project name</a>
+          <a class="navbar-brand" href="index.html">Digital Agency</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="collapse navbar-collapse navbar-right navbar-main-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#why">Why Us?</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#who">Who Are We?</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#clients">Clients</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <section>
+    <section class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h1 class="brand-heading">Welcome</h1>
+              <p class="intro-text"><strong>Digital Agency</strong> is here for all your technology, advertising, SEO and marketing needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="why" class="container content-section">
+      <h2 class="text-center">Why Choose Us?</h2>
+      <p class="text-center">Here are just a few reasons to choose <strong>Digital Agency</strong> for all of your digital marketing needs</p>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="block block-icon-left">
+            <div class="icon">
+              <i class="fa fa-briefcase fa-5x"></i>
+            </div>
+            <div class="icon-content">
+              <h3>Professional</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="block block-icon-left">
+            <div class="icon">
+              <i class="fa fa-money fa-5x"></i>
+            </div>
+            <div class="icon-content">
+              <h3>Low Cost</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="block block-icon-left">
+            <div class="icon">
+              <i class="fa fa-dashboard fa-5x"></i>
+            </div>
+            <div class="icon-content">
+              <h3>Fast</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="block block-icon-left">
+            <div class="icon">
+              <i class="fa fa-gear fa-5x"></i>
+            </div>
+            <div class="icon-content">
+              <h3>Resources & Tools</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="block block-icon-left">
+            <div class="icon">
+              <i class="fa fa-users fa-5x"></i>
+            </div>
+            <div class="icon-content">
+              <h3>Large Community</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="block block-icon-left">
+            <div class="icon">
+              <i class="fa fa-book fa-5x"></i>
+            </div>
+            <div class="icon-content">
+              <h3>Online Courses</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="who" class="content-section text-center">
+      <div class="who-section">
+        <div class="container">
+          <h2>Who are We?</h2>
+          <p class="lead"><strong>Digital Agency</strong> is one of the lead digital marketing firms on the east coast. We are made up of seasoned professionals with a ton of experience.</p>
+          <a href="#contact" class="btn btn-default btn-lg">Contact Us Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="content-section text-center">
+      <div class="container">
+        <h2>Our Clients</h2>
+        <img src="img/partner1.png"> 
+        <img src="img/partner2.png"> 
+        <img src="img/partner3.png"> 
+        <img src="img/partner4.png"> 
+        <img src="img/partner5.png"> 
+        <img src="img/partner6.png"> 
+      </div>
+    </section>
+
+    <section id="contact" class="content-section text-center">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>Contact Digital Agency</h2>
+          <p>Feel free to shoot us an email any time for any reason. You can also follow us on Twitter, Facebook and Google+</p>
+          <p>contact@digitalagency.com</p>
+          <ul class="list-inline banner-social-buttons">
+            <li><a href="http://twitter.com/" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+            </li>
+            <li><a href="http://facebook.com" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+            </li>
+            <li><a href="http://plus.google.com" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Bootstrap core JavaScript
